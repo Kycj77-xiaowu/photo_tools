@@ -18,21 +18,14 @@
    git clone https://github.com/<你的用户名>/photo_tools.git
    cd photo_tools
 
-2.创建虚拟环境并安装依赖：
-    ```bash
-    python -m venv venv
-    venv\Scripts\activate  # Windows
-    pip install -r requirements.txt
-    
-3.运行方法
-    ```bash
-    python photo_tool.py
+2. 创建虚拟环境并安装依赖：
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # Windows
+   pip install -r requirements.txt
 
-4.🛠 打包为 exe（可选）
-   本工具支持使用 pyinstaller 打包为 Windows 可执行文件：
+ 3. 打包为exe
     ```bash
-     pyinstaller --noconsole --onefile --icon=icon.ico photo_tool.py
+    pyinstaller --noconsole --onefile --icon=icon.ico photo_tool.py
 
-📜 License
 本项目仅供个人使用，禁止商用。
-
